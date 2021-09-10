@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: red;
-    padding: 0.6rem 10rem;
+    padding: 0.6rem 0rem 0.6rem 10rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -30,6 +30,7 @@ body {
 }
 
 .info__alertWaScam img {
+    position: relative;
     height: 2.5rem;
     justify-items: right;
 }
