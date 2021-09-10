@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: red;
-    padding: 0.6rem 1rem 0.6rem 10rem;
+    padding: 0.6rem 10rem;
 }
 
 @media screen and (max-width: 992px) {
@@ -25,7 +25,7 @@ body {
         align-items: center;
         justify-content: space-between;
         background-color: red;
-        padding: 0.6rem 1rem 0.6rem;
+        padding: 0.6rem 1rem;
     }
 }
 
@@ -36,8 +36,9 @@ body {
 
 .info__alertWaScam p {
     color: white;
-    font-size: 1rem;
-    font-weight: 900;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -95,4 +96,16 @@ body {
 .container__imgPubli{
     display: flex;
     align-items: center;
+}
+
+@media screen and (max-width: 762px) {
+    .container__imgPubli img {
+        display: none;
+    }
+
+    .publi__yzzer {
+        background-color: #199ED9;
+        justify-content: space-between;
+    }
+
 }

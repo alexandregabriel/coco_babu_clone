@@ -1,12 +1,9 @@
 class Site {
-    constructor(){
-        //Selecionando os infos
-        const topInfos = document.querySelectorAll('.info__alertWaScam');
+    constructor(topInfos){
+
+
         this.closeInfo(topInfos);   
-    }
-    
-    
-    
+    }    
     
     closeInfo(value){
         for(let info of value){
