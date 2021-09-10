@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+
+.info__alertWaScam {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    padding: 0.6rem 1rem 0.6rem 10rem;
+}
+
+@media screen and (max-width: 992px) {
+    .info__alertWaScam {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: red;
+        padding: 0.6rem 1rem 0.6rem;
+    }
+}
+
+.info__alertWaScam img {
+    height: 2.5rem;
+    justify-items: right;
+}
+
+.info__alertWaScam p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.icon__alert { 
+    color: white;
+    font-size: 2rem;
+}
+
+.icon__alertClose {
+    margin: 0 1rem;
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.publi__yzzer {
+    background-color: #199ED9;
+    justify-content: space-between;
+    /*height: 6rem;*/
+}
+
+.logo{
+    background-image: url('https://cocobambu.com/wp-content/themes/cocobambu/imagens/logo-yzeer.png');
+    background-size: 8rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1.8rem;
+    min-width: 8rem;
+}
+
+.publi__btn{
+    align-self: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: orangered;
+    border: none;
+    padding: 0.2rem 0.4rem 0.4rem;
+    border-radius: 0.6rem;
+}
+
+.publi__btn:hover{
+    background-color: orange;
+}
+
+.publi__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.container__imgPubli{
+    display: flex;
+    align-items: center;
+}
